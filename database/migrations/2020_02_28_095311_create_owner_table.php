@@ -17,9 +17,6 @@ class CreateOwnerTable extends Migration
             $table->bigIncrements('id');
             $table->string('first_name', 100);
             $table->string('surname', 100);
-            $table->string('pet_name', 100);
-            $table->string('home_adress');
-            $table->integer('telephone_number');
             $table->timestamps();
 
         });
